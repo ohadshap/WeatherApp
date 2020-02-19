@@ -1,0 +1,103 @@
+html {
+    background-image: url(https://images.unsplash.com/photo-1530908295418-a12e326966ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+#container{
+    display: grid;
+    grid-template-rows: 1fr 9fr;
+}
+
+#searchBar {
+    background-color: white;
+    width: fit-content;
+    border-radius: 10vh;
+    padding: 10px;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+}
+
+#input{
+    /* display: grid; */
+    padding: 3px;
+}
+
+#btn {
+    /* display: grid; */
+}
+
+#content {
+    /* display: grid; */
+    margin: 5px;
+    /* grid-template-rows: auto; */
+}
+
+.city{
+    display: grid;
+    background-color: transparent;
+    box-shadow: 3px 3px ;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 3px;
+    height: fit-content;
+    margin: 10px;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas: 
+    "b t i"
+    "r c d"
+    ;
+}
+
+.deleteCity{
+    display: grid;
+    grid-area: b;
+}
+
+.saveCity {
+    display: grid;
+    grid-area: b;
+}
+
+/* .info{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 4px;
+    justify-items: center;
+    align-items: center;
+} */
+
+.temp{
+    display: grid;
+    grid-area: t;
+}
+
+.cityName{
+    display: grid;
+    grid-area: c;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+}
+
+/* .cond{
+    display: grid;
+    grid-template-rows: 1fr fr;
+    row-gap: 4px;
+    justify-items: center;
+    align-items: center;
+} */
+
+.condIcon{
+    display: grid;
+    grid-area: i;
+}
+
+.condText{
+    display: grid;
+    grid-area: d;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
