@@ -8,3 +8,4 @@ class Renderer {
         $('#content').append(newHTML);
     }
 }
+
