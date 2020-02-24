@@ -73,6 +73,8 @@ html {
 .temp{
     display: grid;
     grid-area: t;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
 }
 
 .cityName{
@@ -100,4 +102,70 @@ html {
     grid-area: d;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
+}
+
+/* need to change background color to backgroung image with fitting image */
+
+.w01d{
+    background-color: black;
+}
+
+.w02d{
+    background-color: green;
+}
+
+.w03d{
+    background-color: blue;
+}
+
+.w04d{
+    background-color: palegoldenrod;
+}
+
+.w09d{
+    background-color: darkmagenta;
+}
+
+.w10d{
+    background-color: maroon;
+}
+
+.w11d{
+    background-color: turquoise;
+}
+
+.w50d{
+    background-color: firebrick;
+}
+
+.w01n{
+    background-color: red;
+}
+
+.w02n{
+    background-color: fuchsia;
+}
+
+.w03n{
+    background-color: violet;
+}
+
+.w04n{
+    background-color: salmon;
+}
+
+.w09n{
+    background-color: white;
+}
+
+.w10n{
+    background-color: khaki;
+}
+
+.w11n{
+    background-color: yellow;
+}
+
+.w50n{
+    background-color: sienna;
 }

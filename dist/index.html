@@ -15,7 +15,7 @@
     <div id="container">
         
         <div id="searchBar">
-            <input id="input" type="text" placeholder="City">
+            <input id="input" type="text" placeholder="Search">
             <button id="btn">Search</button>
         </div>
 
@@ -24,7 +24,7 @@
 
     <script id="city-template" type="text/x-handlebars-template">
         {{#each cities}}
-            <div class="city">
+            <div class="city w{{conditionPic}}">
                 
                 {{#if _id}} 
                     <i class="deleteCity fas fa-minus-circle"></i>
